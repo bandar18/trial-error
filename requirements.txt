@@ -1,0 +1,32 @@
+# Upstox Trade Monitor - Requirements
+# Python 3.11+ required
+
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# HTTP and async
+httpx>=0.24.0
+tenacity>=8.2.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Visualization
+plotly>=5.15.0
+ipywidgets>=8.0.0
+
+# Logging
+loguru>=0.7.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.20.0
+
+# Optional: WebSocket support (uncomment if implementing live WebSocket)
+# websockets>=11.0.0
